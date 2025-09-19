@@ -8,9 +8,8 @@ $(NAME): $(SRC)
 	$(CC) $(SRC) -o $(NAME)
 
 clean:
-	rm -rf *.o
+	rm -rf $(NAME)
 
 fclean: clean
-	rm -rf $(NAME)
 
 re: fclean all
